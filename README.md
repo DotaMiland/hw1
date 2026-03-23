@@ -20,3 +20,12 @@ python run_global_transform.py
 python run_point_transform.py
 ```
 复制链接进入
+# 3. 实验结果展示
+
+## 3.1 全局几何变换结果
+
+![全局变换结果](assets/global.png)
+
+## 3.2 控制点图像形变结果
+
+![控制点形变结果](assets/RBF.png)
