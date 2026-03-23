@@ -13,8 +13,8 @@
    采用基于 RBF基函数，实现通过原点和目标点实现图像变化
 
 # 2.运行方法
-'''bash
+```bash
 python run_global_transform.py
-'''bash
+```bash
 python run_point_transform.py
 复制链接进入
