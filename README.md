@@ -15,8 +15,8 @@
 # 2.运行方法
 ```bash
 python run_global_transform.py
-
+```
 ```bash
 python run_point_transform.py
-
+```
 复制链接进入
