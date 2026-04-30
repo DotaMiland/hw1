@@ -1,0 +1,36 @@
+==================================================
+Task 1: Bundle Adjustment with PyTorch
+==================================================
+Python: 3.9.25 (main, Nov  3 2025, 22:44:01) [MSC v.1929 64 bit (AMD64)]
+PyTorch: 2.8.0+cpu
+Device: cpu
+
+[1/4] Loading real data from: C:\Users\admin\Desktop\sztx\hw_3\HW_3\task1\DIP-Teaching\Assignments\03_BundleAdjustment\data
+  - Projections tensor: torch.Size([50, 20000, 2]), memory: 7.6 MB
+
+[2/4] Running Bundle Adjustment optimization...
+  Epochs=500, LR=0.01
+Epoch     0/500 | Loss: 71177.046069 | f: 1236.07 | Time: 0.1s
+Epoch   100/500 | Loss: 309.900567 | f: 1236.10 | Time: 10.8s
+Epoch   200/500 | Loss: 6.581689 | f: 1235.82 | Time: 24.0s
+Epoch   300/500 | Loss: 5.261993 | f: 1235.64 | Time: 36.9s
+Epoch   400/500 | Loss: 5.398805 | f: 1235.41 | Time: 48.7s
+Epoch   499/500 | Loss: 5.183137 | f: 1235.21 | Time: 60.9s
+
+Optimization finished in 60.9s
+Final loss: 5.183137
+Estimated focal: 1235.21
+  Final loss: 5.183137
+
+[3/4] Visualizing results...
+
+[4/4] Computing errors...
+  Visible reprojection error: 2.2677 px
+
+==================================================
+Task 1 Complete! Output files:
+  - loss_curve.png
+  - point_cloud.obj
+  - cameras.png
+  - run_log.txt
+==================================================
